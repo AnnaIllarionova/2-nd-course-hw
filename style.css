@@ -57,7 +57,7 @@ body {
   color: #FFFFFF;
   text-align: center;
   border: none;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .header__button:hover {
   background: #EB443F;
@@ -86,7 +86,7 @@ body {
   padding-left: 32px;
   padding-bottom: 32px;
   box-sizing: border-box;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .game__item:hover {
   transform: scale(1.05);
