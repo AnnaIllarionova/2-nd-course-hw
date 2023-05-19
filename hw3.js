@@ -90,6 +90,34 @@ switch (monthNumber) {
         break;
 }
 */
+// Задание 5 (второй вариант)
+// let monthNumber = Number(prompt('Введите номер месяца'));
+
+// switch (monthNumber) {
+// 	case 1:
+// 	case 2:
+// 	case 12:
+// 		console.log('winter');
+// 		break;
+// 	case 3:
+// 	case 4:
+// 	case 5:
+// 		console.log('spring');
+// 		break;
+// 	case 6:
+// 	case 7:
+// 	case 8:
+// 		console.log('summer');
+// 		break;
+// 	case 9:
+// 	case 10:
+// 	case 11:
+// 		console.log('autumn');
+// 		break;
+// 	default:
+// 		console.log('Такого месяца не существует');
+// 		break;
+// }
 
 /* Задание 7
 let anyNumber = prompt('Пожалуйста, введите любое число');
