@@ -22,9 +22,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 217px;
 }
 .header__title {
-  padding-top: 217px;
   padding-bottom: 32px;
   max-width: 789px;
   font-style: normal;
@@ -32,6 +32,10 @@ body {
   font-size: 64px;
   line-height: 78px;
   color: #FFFFFF;
+}
+.header__title_small {
+  font-size: 48px;
+  line-height: 59px;
 }
 .header__text {
   max-width: 481px;
@@ -44,6 +48,11 @@ body {
 }
 .header__text_bold {
   font-weight: bold;
+}
+.header__text_small {
+  padding-bottom: 32px;
+  font-weight: 300;
+  max-width: 584px;
 }
 .header__button {
   width: 234px;
@@ -100,7 +109,29 @@ body {
   height: 100%;
 }
 
-@media (max-width: 425px) {
+.seasons {
+  min-height: 800px;
+  background: #000915;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 64px;
+}
+.seasons__box {
+  width: 584px;
+  display: flex;
+  flex-direction: column;
+}
+.seasons__img {
+  max-width: 480px;
+  height: 333px;
+}
+.seasons__img_game1 {
+  width: 100%;
+}
+
+@media (max-width: 455px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -114,11 +145,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 239px;
   }
   .header__title {
     font-size: 32px;
     line-height: 39px;
-    padding-top: 239px;
     text-align: center;
   }
   .header__text {
@@ -139,8 +170,14 @@ body {
   .game__link {
     left: 16px;
   }
+  .seasons {
+    height: 654px;
+  }
+  .seasons__box {
+    align-items: center;
+  }
 }
-@media (min-width: 426px) and (max-width: 1220px) {
+@media (min-width: 456px) and (max-width: 1220px) {
   .center {
     padding-left: 20px;
     padding-right: 20px;
