@@ -52,21 +52,21 @@
 // Задание 5
 // let correctNumbers = (a, b) => {
     
-//    if (isNaN(a) === true || isNaN(b) === true) {
-//     return 'Одно или оба значения не являются числом'
+//    if (isNaN(a) || isNaN(b)) {
+//     return 'Одно или оба значения не являются числом!'
 //    } else {
 //     return a * b;
 //    }
 // }
 
-// console.log(correctNumbers(15, 'mom'));
+// console.log(correctNumbers('sky', 10));
 
 // Задание 6
 // function squareNumber() {
 //     let userNumber = prompt('Напишите любое число');
 //     let userNumberSquare = Math.pow(userNumber, 2); 
 
-//     if (isNaN(userNumber) === false) {
+//     if (!isNaN(userNumber)) {
 //         return `${userNumber} в кубе равняется ${userNumberSquare}`;
 //     } else {
 //         return 'Переданный параметр не является числом';
