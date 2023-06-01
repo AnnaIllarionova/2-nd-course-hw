@@ -120,13 +120,17 @@ body {
     }
 
     .seasons {
-        min-height: 800px;
+        height: 800px;
         background: #000915;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         row-gap: 64px;
+
+        &__reverse {
+            flex-direction: row-reverse;
+        }
 
         &__box {
             width: 584px;

@@ -110,13 +110,16 @@ body {
 }
 
 .seasons {
-  min-height: 800px;
+  height: 800px;
   background: #000915;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   row-gap: 64px;
+}
+.seasons__reverse {
+  flex-direction: row-reverse;
 }
 .seasons__box {
   width: 584px;
@@ -131,7 +134,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 455px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -172,14 +175,21 @@ body {
   }
   .seasons {
     height: 654px;
+    justify-content: center;
+  }
+  .seasons__reverse {
+    flex-direction: row;
   }
   .seasons__box {
     align-items: center;
   }
 }
-@media (min-width: 456px) and (max-width: 1220px) {
+@media (min-width: 768px) and (max-width: 1220px) {
   .center {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .seasons__reverse {
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */
